@@ -12,6 +12,7 @@ A robust matrix manipulation program written in **pure C**, designed to perform 
 > 🧠 All floating-point values are **truncated with a warning**, not rounded.
 > 🔂 **Row Echelon Form** logic is **purely iterative** — no recursion used, ensuring memory safety and performance.
 > 🖥️ Terminal outputs are color-coded for better readability.
+> 💡 **Tip:** For operations on larger matrices, increase the value of `MAX` in [`utils.h`](./utils.h).
 
 ---
 
