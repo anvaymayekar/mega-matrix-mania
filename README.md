@@ -71,7 +71,9 @@ mega-matrix-mania/
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-#include <time.h>
+#include <windows.h>
+#include <unistd.h> // for UNIX
+
 ```
 
 > ⚠️ No external libraries used. All logic is handwritten in standard ANSI C.
