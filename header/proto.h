@@ -1,5 +1,5 @@
 // author: @anvaymayekar
-// matrix.h - Matrix operation prototypes and data structure
+// proto.h - Matrix operation prototypes and data structure
 // Defines the Matrix struct and declares all matrix manipulation functions.
 
 #ifndef MATRIX_H
