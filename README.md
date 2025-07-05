@@ -20,15 +20,19 @@ A robust matrix manipulation program written in **pure C**, designed to perform 
 
 ```
 mega-matrix-mania/
-├── main.c                  // 🧠 Entry point with menu logic
-├── matrix.c                // 🧮 All matrix operations (det, adj, inv, etc.)
-├── io.c                    // 🔢 Matrix input/output handler
-├── utils.c                 // 🧰 Delay, title display, and terminal colors
-├── proto.h                 // 📚 All function declarations (merged header)
-├── io.h                    // ✍️ I/O-related function declarations
-├── utils.h                 // 🎨 Macros for color, delay, and max matrix size
-├── mega-matrix-mania.exe   // 🟩 Compiled Windows executable
-└── README.md               // 📘 This file
+├── header/                     # 📂 All header files (function prototypes, macros)
+│   ├── io.h                    # ✍️  Input/Output function declarations
+│   ├── proto.h                 # 📚 Unified prototype header for all functions
+│   ├── title.h                 # 🖼️  Title art and splash screen
+│   ├── utils.h                 # 🎨 Macros: ANSI colors, delays, matrix size
+│
+├── src/                        # ⚙️  Source code implementation
+│   ├── io.c                    # 🔢 Handles matrix input/output operations
+│   ├── matrix.c                # 🧮 Core matrix functions (det, adj, inv, rank, etc.)
+│
+├── main.c                      # 🧠 Program entry point with menu logic
+├── mega-matrix-mania.exe       # 🟩 Windows executable (compiled binary)
+└── README.md                   # 📘 Project overview and usage instructions
 ```
 
 ---
@@ -107,7 +111,7 @@ mega-matrix-mania/
 ### 🪟 On Windows:
 
 ```bash
-gcc main.c matrix.c io.c -o mega-matrix-mania.exe -lm
+gcc -Iheader main.c src/io.c src/matrix.c -o mega-matrix-mania
 ```
 ```bash
 mega-matrix-mania.exe
@@ -116,7 +120,7 @@ mega-matrix-mania.exe
 ### 🐧 On Linux/macOS:
 
 ```bash
-gcc main.c matrix.c io.c -o mega-matrix-mania -lm
+gcc -Iheader main.c src/io.c src/matrix.c -o mega-matrix-mania
 ```
 ```bash
 ./mega-matrix-mania
