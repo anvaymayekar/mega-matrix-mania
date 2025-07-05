@@ -106,14 +106,14 @@ mega-matrix-mania/
 ### 🪟 On Windows:
 
 ```bash
-gcc main.c matrix.c io.c utils.c -o mega-matrix-mania.exe -lm
+gcc main.c matrix.c io.c -o mega-matrix-mania.exe -lm
 mega-matrix-mania.exe
 ```
 
 ### 🐧 On Linux/macOS:
 
 ```bash
-gcc main.c matrix.c io.c utils.c -o mega-matrix-mania -lm
+gcc main.c matrix.c io.c -o mega-matrix-mania -lm
 ./mega-matrix-mania
 ```
 
