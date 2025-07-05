@@ -2,7 +2,7 @@
 
 A robust matrix manipulation program written in **pure C**, designed to perform essential and advanced linear algebra operations including determinant, inverse, rank, row echelon form, scalar multiplication, and more — right from your terminal interface with **safety-first input mechanisms** and **vibrant ANSI-styled output**.
 
-> 🛠️ This project was developed as a part of **B.Tech (Engineering)** coursework at **Shah & Anchor Kutchhi Engineering College**, Mumbai by **Anvay Mayekar** for subject **Problem Solving and Programming with C**, with a focus on modular design, efficient matrix handling, and real-world C programming principles.
+> 🛠️ This project was developed as a part of **B.Tech (Engineering)** coursework at **Shah & Anchor Kutchhi Engineering College**, Mumbai by **Anvay Mayekar** for subject **Problem Solving and Programming with C** **FE - Sem II**, with a focus on modular design, efficient matrix handling, and real-world C programming principles.
 
 ---
 
