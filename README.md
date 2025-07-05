@@ -107,6 +107,8 @@ mega-matrix-mania/
 
 ```bash
 gcc main.c matrix.c io.c -o mega-matrix-mania.exe -lm
+```
+```bash
 mega-matrix-mania.exe
 ```
 
@@ -114,6 +116,8 @@ mega-matrix-mania.exe
 
 ```bash
 gcc main.c matrix.c io.c -o mega-matrix-mania -lm
+```
+```bash
 ./mega-matrix-mania
 ```
 
