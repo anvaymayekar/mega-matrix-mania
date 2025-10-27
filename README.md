@@ -20,6 +20,9 @@ A robust matrix manipulation program written in **pure C**, designed to perform 
 
 ```
 mega-matrix-mania/
+├── build/                      # 🔩 Output Directory
+    ├── obj/                    # 🧱 Compiled object files (.o)
+    ├── MegaMatrixMania.exe     # 🟩 Windows executable (compiled binary)
 ├── header/                     # 📂 All header files (function prototypes, macros)
 │   ├── io.h                    # ✍️  Input/Output function declarations
 │   ├── proto.h                 # 📚 Unified prototype header for all functions
@@ -31,7 +34,6 @@ mega-matrix-mania/
 │   ├── matrix.c                # 🧮 Core matrix functions (det, adj, inv, rank, etc.)
 │
 ├── main.c                      # 🧠 Program entry point with menu logic
-├── mega-matrix-mania.exe       # 🟩 Windows executable (compiled binary)
 └── README.md                   # 📘 Project overview and usage instructions
 ```
 
@@ -129,6 +131,38 @@ gcc -Iheader main.c src/io.c src/matrix.c -o mega-matrix-mania
 > 🧠 Make sure `gcc` is installed. Use `sudo apt install gcc` (Linux) or MinGW (Windows).
 
 ---
+
+## ⚙️ Build & Run Using Makefile (recommended)
+
+### 🧩 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/anvaymayekar/mega-matrix-mania.git
+
+# Enter the project directory
+cd mega-matrix-mania
+```
+
+### 🔧 Build
+
+```bash
+make
+```
+
+### 🚀 Run
+
+```bash
+./build/MegaMatrixMania        # Linux/macOS
+./build/MegaMatrixMania.exe    # Windows
+```
+
+### 🧹 Clean
+
+```bash
+make clean
+```
+
 
 ## 🖼️ Output Sample
 
